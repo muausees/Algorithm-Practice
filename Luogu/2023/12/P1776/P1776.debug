@@ -1,0 +1,15 @@
+{
+    "breakpoints": [
+    ],
+    "timestamp": "1701942619758",
+    "watchvars": [
+        {
+            "expression": "vc",
+            "timestamp": "1701941252872"
+        },
+        {
+            "expression": "wc",
+            "timestamp": "1701941260981"
+        }
+    ]
+}

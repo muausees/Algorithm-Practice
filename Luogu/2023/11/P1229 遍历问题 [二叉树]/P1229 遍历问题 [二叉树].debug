@@ -1,0 +1,15 @@
+{
+    "breakpoints": [
+    ],
+    "timestamp": "1700647536067",
+    "watchvars": [
+        {
+            "expression": "s1.substr(i, 2)",
+            "timestamp": "1700646906090"
+        },
+        {
+            "expression": "s2.substr(j, 2)",
+            "timestamp": "1700646923328"
+        }
+    ]
+}

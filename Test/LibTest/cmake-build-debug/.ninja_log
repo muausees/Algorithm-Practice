@@ -1,0 +1,6 @@
+# ninja log v5
+0	36	0	clean	6b02cc469f2c3bee
+16	4228	7214635100000000	CMakeFiles/LibTest.dir/main.cpp.obj	e1a0ff10cc1e9757
+4231	5296	7214635120000000	LibTest.exe	6a14779a9cfbf254
+38	3064	7214638840000000	CMakeFiles/LibTest.dir/main.cpp.obj	9a0ab3549261ed7f
+3064	3493	7214638840000000	LibTest.exe	6a14779a9cfbf254

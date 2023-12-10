@@ -1,0 +1,3 @@
+F:/Programs/Contest/【LGR-166-Div.4】洛谷入门赛 #17/C/cmake-build-debug/CMakeFiles/C.dir
+F:/Programs/Contest/【LGR-166-Div.4】洛谷入门赛 #17/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Programs/Contest/【LGR-166-Div.4】洛谷入门赛 #17/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

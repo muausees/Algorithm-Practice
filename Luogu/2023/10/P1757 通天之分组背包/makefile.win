@@ -1,0 +1,35 @@
+# Project: P1757 通天之分组背包
+# Makefile created by Red Panda C++ 2.25.1
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = P1757_通天之分组背包_private.res
+OBJ      = main.o $(RES)
+LINKOBJ  = main.o P1757_通天之分组背包_private.res
+CLEANOBJ  =  main.o  P1757_通天之分组背包_private.res "P1757 通天之分组背包.exe"
+LIBS     = 
+INCS     =  
+CXXINCS  =  
+BIN      = "P1757 通天之分组背包.exe"
+CXXFLAGS = $(CXXINCS)  -g3 -pipe -Wall -D__DEBUG__
+CFLAGS   = $(INCS)  -g3 -pipe -Wall -D__DEBUG__
+RM       = del /q /f
+WINDRESFLAGS  = 
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) > NUL 2>&1
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS) 
+
+P1757_通天之分组背包_private.res: P1757_通天之分组背包_private.rc 
+	$(WINDRES) -i P1757_通天之分组背包_private.rc --input-format=rc -o P1757_通天之分组背包_private.res -O coff $(WINDRESFLAGS) 
+
